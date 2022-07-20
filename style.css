@@ -1,0 +1,58 @@
+body{
+
+	font-family: lucida grande;
+	font-size: 16px;
+	background-color: green;	
+}
+.c1{
+	color: gold;
+	background-color: blue;
+	text-align: center;
+	font-style: italic;
+	font-family: monospace;
+	border: red 4px solid;
+}
+.c2{
+
+	color: red;
+	font-family: courier new;
+	border: black 2px solid;
+	padding-left: 10px;
+}
+.c3{
+	color: cyan;
+	background-color: black;
+	font-family: comforter, cursive;
+	border-right: ghostwhite 4px solid;
+	border-left: ghostwhite 4px solid;
+	padding-left: 10px;
+	padding-right: 5px;
+	padding-top: 8px;
+	padding-bottom: 5px;
+	
+}
+.contain{
+	width: 90%;
+	margin: auto;
+}
+.container{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.dropdown{
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+}
+a{
+	display: block;
+	width: 200px;
+	background-color: whitesmoke;
+	color: gold;
+	padding: 10px 0;
+	text-align: center;
+}
+a:hover{
+	background-color: skyblue;
+}
